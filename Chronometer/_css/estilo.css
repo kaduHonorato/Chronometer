@@ -1,0 +1,125 @@
+body
+{
+width:80%;
+margin:auto;
+background:#252828;
+}
+
+#caixaPrincipal
+{
+width:100%;
+height:100vh;
+}
+
+.caixaPadrao
+{
+
+width:50%;
+margin:auto;
+text-align:center;
+padding:20px 0;
+}
+
+#caixaChrono
+{
+font-family: "arial";
+font-weight:bolder; 
+color:#EA3D40; 
+text-shadow:1px 1px 1px #000;
+}
+
+#spanHMS
+{
+font-size:40px;
+}
+
+#spanC
+{
+font-size:30px;
+}
+
+.custonBt1
+{
+width:120px;
+margin:2px 0;
+}
+
+#caixaLegendas
+{
+width:100%;
+float:left;
+margin:80px 0;
+}
+
+#caixaLegendas div
+{
+width:50%;
+text-align:center;
+font-family:Liberation Mono;
+color:#fff;
+}
+
+#dvLeft
+{
+float:left;
+}
+
+#dvRight
+{
+float:right;
+}
+
+
+@media screen and (max-width:1000px)
+{
+
+body
+{
+width:90%;
+}
+
+}
+
+@media screen and (max-width:850px)
+{
+
+body
+{
+width:100%;
+}
+
+}
+
+
+@media screen and (max-width:550px)
+{
+
+#spanHMS
+{
+font-size:50px;
+}
+
+#spanC
+{
+font-size:40px;
+}
+
+.custonBt1
+{
+padding:3px 0;
+}
+
+.caixaPadrao
+{
+width:100%;
+}
+
+#caixaLegendas div
+{
+width:100%;
+margin:20px 0;
+
+}
+
+
+}
